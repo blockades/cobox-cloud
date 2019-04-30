@@ -12,11 +12,8 @@ module.exports = function NavBar (props = {}, children = []) {
       h('a', { 'ev-click': () => goTo('/') }, [
         h('li', 'Home'),
       ]),
-      h('a', { 'ev-click': () => goTo('/about') }, [
+      h('a', { href: "https://blockades.github.io/cobox-presentation/" }, [
         h('li', 'About'),
-      ]),
-      h('a', { 'ev-click': () => goTo('/team') }, [
-        h('li', 'Team')
       ])
     ])
   ])
