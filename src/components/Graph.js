@@ -18,7 +18,7 @@ module.exports = function Graph (props = {}, children = []) {
     .on("tick", tick)
 
   var svg = d3.select(container).append("svg")
-    .attr("viewBox", `500 0 ${width} ${height}`) .attr("width", width)
+    .attr("viewBox", `350 0 ${width} ${height}`) .attr("width", width)
     .attr("height", "100%")
     .on("mousemove", mousemove)
     .on("mousedown", mousedown)
