@@ -1,5 +1,11 @@
+@import 'normalise.css';
+@import 'fonts.css';
+@import 'colours.css';
+@import 'graph.css';
+
 html, body {
-  font-family: sans-serif;
+  font-family: 'Maison Neue Mono';
+  letter-spacing: .4rem;
   margin: 0;
 }
 
@@ -45,4 +51,33 @@ div.banner > div > h1 {
 div.banner > div > h2 {
   font-size: 22pt;
   color: white;
+}
+
+nav.primary {
+  height: 54px;
+  background: white;
+}
+
+nav.primary > ul {
+  list-style: none;
+}
+
+nav.primary > ul > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav.primary > ul > a:hover {
+  color: white;
+}
+
+nav.primary > ul > a:hover > li {
+  background: black;
+}
+
+nav.primary > ul > li {
+  margin: 0;
+  padding: 15px 10px 15px 10px;
+  display: inline-block;
+  list-style-type: none;
 }

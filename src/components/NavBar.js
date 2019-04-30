@@ -7,9 +7,11 @@ module.exports = function NavBar (props = {}, children = []) {
     request,
   } = props
 
-  return h('nav', [
+  return h('nav.primary', [
     h('ul', [
-      h('li', 'About'),
+      h('a', [
+        h('li', 'About'),
+      ])
     ])
   ])
 }
