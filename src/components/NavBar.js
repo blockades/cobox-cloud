@@ -9,8 +9,11 @@ module.exports = function NavBar (props = {}, children = []) {
 
   return h('nav.primary', [
     h('ul', [
-      h('a', [
+      h('a', { 'ev-click': () => goTo('/about') }, [
         h('li', 'About'),
+      ]),
+      h('a', { 'ev-click': () => goTo('/team') }, [
+        h('li', 'Team')
       ])
     ])
   ])

@@ -1,7 +1,8 @@
+@import 'colours.css';
+
 rect {
   pointer-events: all;
-  fill: #216869;
-  /* fill: #c6dbf0; */
+  fill: var(--turquoise);
 }
 
 .node {
@@ -18,6 +19,7 @@ rect {
   height: inherit;
   vertical-align: top;
   overflow: hidden;
+  top: -5px;
 }
 
 .graph-content {
