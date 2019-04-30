@@ -1,0 +1,48 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+div#app {
+  height: 100vh;
+}
+
+main.app {
+  display: grid;
+  height: 100%;
+}
+
+article {
+  height: 100%;
+  overflow: hidden;
+}
+
+div.banner {
+  height: 100%;
+}
+
+div.banner > div.left {
+  left: 10%;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  transform: translate(-10%, -50%);
+}
+
+div.banner > div.right {
+  position: absolute;
+  z-index: 1;
+  right: 10%;
+  bottom: 10%;
+  transform: translate(-10%, -50%)
+}
+
+div.banner > div > h1 {
+  font-size: 38pt;
+  color: white;
+}
+
+div.banner > div > h2 {
+  font-size: 22pt;
+  color: white;
+}

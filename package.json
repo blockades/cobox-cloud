@@ -1,0 +1,30 @@
+{
+  "name": "cobox-website",
+  "version": "1.0.0",
+  "description": "A simple Javascript web application using Depject and Mutant",
+  "scripts": {
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "brfs": "^2.0.2",
+    "browserify": "^16.2.3",
+    "browserify-css": "^0.14.0",
+    "bulk-require": "^1.0.1",
+    "bulkify": "^1.4.2",
+    "d3": "^3.5.17",
+    "depject": "^4.1.1",
+    "depnest": "^1.3.0",
+    "es2040": "^1.2.6",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "lodash": "^4.17.11",
+    "mutant": "^3.22.1",
+    "setimmediate": "^1.0.5",
+    "standard": "^12.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  }
+}

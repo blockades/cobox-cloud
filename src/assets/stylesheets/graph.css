@@ -1,0 +1,28 @@
+rect {
+  pointer-events: all;
+  fill: #c6dbf0;
+}
+
+.node {
+  fill: #FFF;
+}
+
+.link {
+  stroke: #999;
+}
+
+.graph {
+  position: relative;
+  width: 100%;
+  height: inherit;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.graph-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
