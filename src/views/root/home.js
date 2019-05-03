@@ -17,7 +17,7 @@ exports.create = (api) => {
         ]),
         Graph(),
         h('div.right', [
-          h('h2', 'Commoning the Cloud')
+          h('h2', 'Building blocks for the co-operative cloud')
         ])
       ])
     ])

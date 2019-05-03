@@ -18,9 +18,9 @@ module.exports = function Graph (props = {}, children = []) {
     .on("tick", tick)
 
   var svg = d3.select(container).append("svg")
-    .attr("viewBox", `350 0 ${width} ${height}`) .attr("width", width)
+    .attr("viewBox", `350 0 ${width} ${height}`)
+    .attr("width", width)
     .attr("height", "100%")
-    .on("mousemove", mousemove)
     .on("mousedown", mousedown)
 
   svg.append("rect")
@@ -35,10 +35,6 @@ module.exports = function Graph (props = {}, children = []) {
   restart();
 
   return container
-
-  function mousemove() {
-    cursor.attr("transform", "translate(" + d3.mouse(this) + ")")
-  }
 
   function mousedown() {
     var point = d3.mouse(this),

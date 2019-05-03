@@ -15,15 +15,11 @@ a {
 }
 
 h1 {
-  letter-spacing: 1rem;
+  letter-spacing: 1.5rem;
 }
 
 h2 {
   letter-spacing: .6rem;
-}
-
-div#app {
-  height: 100vh;
 }
 
 main.app {
@@ -38,9 +34,15 @@ article {
 
 div.banner {
   height: 100%;
+  position: relative;
+}
+
+div.banner > div.left, div.right {
+  width: 50%;
 }
 
 div.banner > div.left {
+  text-align: left;
   left: 10%;
   position: absolute;
   z-index: 1;
@@ -49,10 +51,11 @@ div.banner > div.left {
 }
 
 div.banner > div.right {
+  text-align: right;
   position: absolute;
   z-index: 1;
   right: 5%;
-  bottom: 10%;
+  bottom: 5%;
   transform: translate(-5%, -50%)
 }
 
