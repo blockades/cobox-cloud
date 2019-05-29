@@ -16,7 +16,6 @@ gulp.task('build', function () {
 
   const transforms = [
     { name: es2040, options: {} },
-    { name: 'brfs', options: {}  },
     { name: bulkify, options: {} }
   ]
 
@@ -40,7 +39,7 @@ gulp.task('build', function () {
 })
 
 gulp.task('watch', function () {
-  gulp.watch('src/**/*', ['build'])
+  gulp.watch('src/**/*.js', ['build'])
 })
 
 gulp.task('default', ['build', 'watch'])
