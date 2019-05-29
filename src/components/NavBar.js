@@ -12,7 +12,7 @@ module.exports = function NavBar (props = {}, children = []) {
       h('a', { 'ev-click': () => goTo('/') }, [
         h('li', 'Home'),
       ]),
-      h('a', { href: "assets/pdfs/cobox-presentation.pdf/" }, [
+      h('a', { href: "assets/pdfs/cobox-presentation.pdf" }, [
         h('li', 'About'),
       ])
     ])
